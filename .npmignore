@@ -1,0 +1,24 @@
+# Node.js / NPM
+node_modules
+npm-debug.log
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Tests
+test
+
+# Code Coverage
+coverage
+
+# Dotfiles
+.editorconfig
+.eslintrc
+.gitignore
+.travis.yml
+.yaspellerrc
+
+# Editor
+[._]sw[a-p]
+*~
