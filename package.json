@@ -10,7 +10,7 @@
     "start": "babel-node \"./app.js\"",
     "lint": "eslint . --ignore-path .gitignore",
     "lint-staged": "lint-staged",
-    "test": "yarn run lint"
+    "test": "jest --coverage && cat \"./coverage/lcov.info\" | coveralls"
   },
   "pre-commit": "lint-staged",
   "lint-staged": {
